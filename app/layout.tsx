@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://prakash116.github.io/riya/"),
   openGraph: {
     title: "Riya Closet | Your All Day Fashion Hub",
     description:
