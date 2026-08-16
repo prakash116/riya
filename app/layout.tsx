@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     "co-ords",
     "occasion wear",
   ],
+  authors: [{ name: "Riya Closet" }],
+  creator: "Riya Closet",
+  publisher: "Riya Closet",
   title: "Riya Closet — Your All Day Fashion Hub",
   description:
     "A refined landing page concept for Riya Closet, bringing together modern silhouettes and timeless Indian craft.",
