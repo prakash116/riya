@@ -22,3 +22,9 @@ npm run build
 ## Deployment
 
 Pushing to `main` deploys the static site to GitHub Pages through GitHub Actions.
+
+## Project structure
+
+- `app/` contains the Next.js route and global styles.
+- `components/` contains the landing-page sections and UI primitives.
+- `lib/` contains content data shared by the components.
