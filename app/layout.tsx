@@ -19,6 +19,13 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Riya Closet | Your All Day Fashion Hub",
+    description:
+      "Modern silhouettes and timeless Indian craft for every version of your day.",
+    images: ["https://prakash116.github.io/riya/images/hero.jpg"],
+  },
   keywords: [
     "Riya Closet",
     "Indian fashion",
