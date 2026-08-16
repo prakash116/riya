@@ -153,7 +153,11 @@ export function SiteHeader() {
               </button>
             </div>
 
-            <nav className="mobile-menu__nav" aria-label="Mobile navigation">
+            <nav
+              id="mobile-navigation"
+              className="mobile-menu__nav"
+              aria-label="Mobile navigation"
+            >
               {navLinks.map((link, index) => (
                 <motion.a
                   key={link.href}
