@@ -11,9 +11,9 @@
   --coral: #d95f45;
   --gold: #c19a55;
   --line: rgba(35, 29, 27, 0.16);
-  --serif: var(--font-display), "Iowan Old Style", "Palatino Linotype",
-    "Book Antiqua", Palatino, "Times New Roman", serif;
-  --sans: var(--font-sans), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino,
+    "Times New Roman", serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --gutter: clamp(20px, 5.4vw, 88px);
   --header-h: 84px;

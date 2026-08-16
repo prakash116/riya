@@ -1,3 +1,7 @@
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+export const imagePath = (path: string) => `${basePath}${path}`;
+
 export type HeroSlide = {
   id: string;
   eyebrow: string;
@@ -18,7 +22,7 @@ export const heroSlides: HeroSlide[] = [
     titleScript: "version of you.",
     description:
       "Modern silhouettes, timeless Indian craft, and a little everyday magic—curated for plans big and small.",
-    image: "/images/look-two.png",
+    image: imagePath("/images/look-two.png"),
     alt: "Woman wearing a purple Riya Closet suit beside a lakeside pavilion",
     focus: "50% 34%",
     tint: "#5b2246",
@@ -30,7 +34,7 @@ export const heroSlides: HeroSlide[] = [
     titleScript: "feel all day.",
     description:
       "Hand-finished embroidery, breathable weaves, and drapes that move with you from morning chai to midnight plans.",
-    image: "/images/look-one.png",
+    image: imagePath("/images/look-one.png"),
     alt: "Riya Closet campaign look photographed outside the boutique",
     focus: "50% 26%",
     tint: "#41142f",
@@ -42,7 +46,7 @@ export const heroSlides: HeroSlide[] = [
     titleScript: "speaks first.",
     description:
       "Easy separates in electric blues and quiet neutrals—built for the days you want to be seen without trying.",
-    image: "/images/editorial-one.png",
+    image: imagePath("/images/editorial-one.png"),
     alt: "Model in a blue wrap co-ord set inside the Riya Closet boutique",
     focus: "50% 22%",
     tint: "#1d3a63",
@@ -55,7 +59,7 @@ export const collections = [
     title: "Suit Sets",
     note: "With dupatta",
     count: "48 styles",
-    image: "/images/suits.jpg",
+    image: imagePath("/images/suits.jpg"),
     className: "collection-card--wide",
   },
   {
@@ -63,7 +67,7 @@ export const collections = [
     title: "Co-ord Sets",
     note: "Made to move",
     count: "32 styles",
-    image: "/images/coords.jpg",
+    image: imagePath("/images/coords.jpg"),
     className: "collection-card--tall",
   },
   {
@@ -71,7 +75,7 @@ export const collections = [
     title: "Occasion Edit",
     note: "For the good nights",
     count: "26 styles",
-    image: "/images/product-maya.jpg",
+    image: imagePath("/images/product-maya.jpg"),
     className: "collection-card--small",
   },
 ];
@@ -83,7 +87,7 @@ export const products = [
     price: "₹3,000",
     was: "₹3,800",
     tag: "New",
-    image: "/images/product-lotus.jpg",
+    image: imagePath("/images/product-lotus.jpg"),
     color: "#d9ad7d",
   },
   {
@@ -92,7 +96,7 @@ export const products = [
     price: "₹2,400",
     was: "₹2,950",
     tag: "Bestseller",
-    image: "/images/product-maya.jpg",
+    image: imagePath("/images/product-maya.jpg"),
     color: "#b3502d",
   },
   {
@@ -101,7 +105,7 @@ export const products = [
     price: "₹2,200",
     was: null,
     tag: "New",
-    image: "/images/product-dusty.jpg",
+    image: imagePath("/images/product-dusty.jpg"),
     color: "#bd8490",
   },
   {
@@ -110,7 +114,7 @@ export const products = [
     price: "₹1,850",
     was: "₹2,300",
     tag: "Only 4 left",
-    image: "/images/product-maroon.jpg",
+    image: imagePath("/images/product-maroon.jpg"),
     color: "#6a193c",
   },
   {
@@ -119,7 +123,7 @@ export const products = [
     price: "₹2,650",
     was: null,
     tag: "New",
-    image: "/images/product-teal.jpg",
+    image: imagePath("/images/product-teal.jpg"),
     color: "#2f6f6b",
   },
 ];
@@ -180,14 +184,14 @@ export const promises = [
 ];
 
 export const lookbook = [
-  { image: "/images/look-one.png", alt: "Purple batik co-ord street look" },
-  { image: "/images/editorial-one.png", alt: "Blue wrap top with white trousers" },
-  { image: "/images/product-lotus.jpg", alt: "Lotus anarkali detail" },
-  { image: "/images/editorial-two.png", alt: "Black wrap co-ord set" },
-  { image: "/images/coords.jpg", alt: "Co-ord set styling" },
-  { image: "/images/product-teal.jpg", alt: "Teal georgette suit set" },
-  { image: "/images/suits.jpg", alt: "Suit set with dupatta" },
-  { image: "/images/product-maya.jpg", alt: "Maya elegance embroidered set" },
+  { image: imagePath("/images/look-one.png"), alt: "Purple batik co-ord street look" },
+  { image: imagePath("/images/editorial-one.png"), alt: "Blue wrap top with white trousers" },
+  { image: imagePath("/images/product-lotus.jpg"), alt: "Lotus anarkali detail" },
+  { image: imagePath("/images/editorial-two.png"), alt: "Black wrap co-ord set" },
+  { image: imagePath("/images/coords.jpg"), alt: "Co-ord set styling" },
+  { image: imagePath("/images/product-teal.jpg"), alt: "Teal georgette suit set" },
+  { image: imagePath("/images/suits.jpg"), alt: "Suit set with dupatta" },
+  { image: imagePath("/images/product-maya.jpg"), alt: "Maya elegance embroidered set" },
 ];
 
 export const announcements = [

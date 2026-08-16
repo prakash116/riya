@@ -28,7 +28,7 @@ import {
   Reveal,
   TextReveal,
 } from "@/components/motion-primitives";
-import { collections, lookbook, promises, stats } from "@/lib/site-data";
+import { collections, imagePath, lookbook, promises, stats } from "@/lib/site-data";
 
 function BackToTop() {
   const [visible, setVisible] = useState(false);
@@ -169,7 +169,7 @@ export function LandingPage() {
               transition={{ duration: 1, ease: [0.76, 0, 0.24, 1] }}
             >
               <Image
-                src="/images/look-one.png"
+                src={imagePath("/images/look-one.png")}
                 alt="Riya Closet campaign look outside the boutique"
                 fill
                 sizes="(max-width: 960px) 100vw, 50vw"
