@@ -2,6 +2,23 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: "Riya Closet | Your All Day Fashion Hub",
+    description:
+      "Modern silhouettes and timeless Indian craft for every version of your day.",
+    url: "https://prakash116.github.io/riya/",
+    siteName: "Riya Closet",
+    locale: "en_IN",
+    type: "website",
+    images: [
+      {
+        url: "https://prakash116.github.io/riya/images/hero.jpg",
+        width: 1600,
+        height: 900,
+        alt: "Riya Closet fashion collection",
+      },
+    ],
+  },
   keywords: [
     "Riya Closet",
     "Indian fashion",
