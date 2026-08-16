@@ -95,6 +95,7 @@ export function SiteHeader() {
             className="menu-toggle"
             aria-label="Open menu"
             aria-expanded={menuOpen}
+            aria-controls="mobile-navigation"
             onClick={() => setMenuOpen(true)}
           >
             <Menu size={20} strokeWidth={1.6} />
