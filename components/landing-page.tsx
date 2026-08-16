@@ -67,7 +67,7 @@ export function LandingPage() {
     <div className="site-shell">
       <SiteHeader />
 
-      <main>
+      <main id="main-content" tabIndex={-1}>
         <HeroCarousel />
 
         <div className="ticker" aria-label="Riya Closet highlights">
