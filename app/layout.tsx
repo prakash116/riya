@@ -26,6 +26,10 @@ export const metadata: Metadata = {
       "Modern silhouettes and timeless Indian craft for every version of your day.",
     images: ["https://prakash116.github.io/riya/images/hero.jpg"],
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Riya Closet",
     "Indian fashion",
