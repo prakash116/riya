@@ -1,0 +1,16 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+
+# Local tooling and generated artifacts
+.vscode/
+.chrome-*/
+shots/
+shot-*.png
+*.log
+*.tsbuildinfo
+
+# Environment files
+.env*
+!.env.example
