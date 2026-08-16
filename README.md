@@ -12,3 +12,9 @@ https://prakash116.github.io/riya/
 npm ci
 npm run dev
 ```
+
+## Production build
+
+```bash
+npm run build
+```
