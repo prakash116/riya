@@ -18,3 +18,7 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Deployment
+
+Pushing to `main` deploys the static site to GitHub Pages through GitHub Actions.
